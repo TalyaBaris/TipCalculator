@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:text="@string/amount"
+            android:id="@+id/tv"
+            />
+    
+    <EditText
+        android:id="@+id/edtBillAmount"
+        android:layout_width="169dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="" >
+
+
+    </EditText>
+
+
+    <CheckBox
+        android:id="@+id/chkRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center"
+        android:text="@string/round" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/calculate" />
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:text=""
+            android:id="@+id/txtTipResult"
+            android:layout_marginTop="24dp"/>
+
+</LinearLayout>

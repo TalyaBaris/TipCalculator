@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Ex1Activity!</string>
+    <string name="amount">Bill Amount</string><string name="round">Round to nearest dollar</string><string name="calculate">Calculate</string><string name="app_name">Ex1</string>
+    
+    
+    
+    
+
+</resources>
